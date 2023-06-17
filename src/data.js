@@ -3,58 +3,66 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Landing',
+      text: 'Socio-Políticos y económicos',
       links: [
+        // {
+        //   text: '👉 CIBERNÉTICA de las Elecciones y del Desastre Nacional.',
+        //   // href: getPermalink('/landing/saas'),
+        //   href:'#'
+        // },
+        // {
+        //   text: '👉 Convocatoria a la Intelectualidad Colombiana',
+        //   href:'#'
+        // },
         {
-          text: 'Sass',
-          href: getPermalink('/landing/saas'),
+          text: '👉 Los Planos de la Paz',
+          href:'/losplanosdelapaz'
         },
         {
-          text: 'Startup',
-          href: getPermalink('/landing/startup'),
+          text: '👉 Revolución científico tecnológica para el desarrollo nacional',
+          href:'/revolucioncientificotecnologica'
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/landing/mobile-app'),
+          text: '👉 Decálogo de la Paz',
+          href:'/decalogodelapaz'
+        },
+        // {
+        //   text: '👉 La Realización Personal o la Felicidad en un Nuevo Contrato Social',
+        //   href:'#'
+        // },
+        // {
+        //   text: '👉 Plan de Salvación Nacional',
+        //   href:'#'
+        // },
+        // {
+        //   text: '👉 Ideología del Libertador para la Segunda Independencia de América latina',
+        //   href:'#'
+        // },
+        // {
+        //   text: '👉 Temática libre',
+        //   href:'#'
+        // },
+        {
+          text: '👉 Libros',
+          href:'/libro'
         },
       ],
     },
     {
-      text: 'Pages',
-      links: [
-        {
-          text: 'Features',
-          href: '#',
-        },
-        {
-          text: 'Pricing',
-          href: '#',
-        },
-        {
-          text: 'About us',
-          href: '#',
-        },
-        {
-          text: 'Contact',
-          href: '#',
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
+      text: '📰Blog',
+      href: getPermalink('/blog'),
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: '🎙️Podcast',
+      href: getPermalink('/blog'),
     },
     {
-      text: 'Blog',
-      href: getBlogPermalink(),
+      text: '📽️Reels',
+      href: getPermalink('/blog'),
+    },
+    {
+      text: '📚Libros',
+      href: '/libro',
     },
   ],
   actions: [
