@@ -3,7 +3,7 @@ import { getPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Socio-Políticos y económicos',
+      text: 'Socio - políticos y económicos',
       links: [
         // {
         //   text: '👉 CIBERNÉTICA de las Elecciones y del Desastre Nacional.',
@@ -15,7 +15,7 @@ export const headerData = {
         //   href:'#'
         // },
         {
-          text: '👉 Los Planos de la Paz',
+          text: '👉 Los planos de la paz',
           href:'/losplanosdelapaz'
         },
         {
@@ -23,7 +23,7 @@ export const headerData = {
           href:'/revolucioncientificotecnologica'
         },
         {
-          text: '👉 Decálogo de la Paz',
+          text: '👉 Decálogo de la paz',
           href:'/decalogodelapaz'
         },
         // {
@@ -54,7 +54,7 @@ export const headerData = {
     },
     {
       text: '🎙️Podcast',
-      href: getPermalink('/blog'),
+      href: getPermalink('/tag/podcast'),
     },
     {
       text: '📽️Reels',

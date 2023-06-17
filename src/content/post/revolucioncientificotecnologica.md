@@ -7,6 +7,7 @@ image: ~/assets/images/revolucioncientificotecnologica.png
 category: socio-politicos-economicos
 tags:
   - lectura
+  - tematicalibre
 canonical: https://sistemasautoorganizados.com/revolucioncientificotecnologica
 ---
 >“No puede haber sabiduría sin compasión, lo que significa para mí, que la ciencia carece de valor si no va acompañada de una preocupación social”. Kapra
